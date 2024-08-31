@@ -16,3 +16,8 @@ follow [this instruction](https://ts.llamaindex.ai/examples/local_llm) before st
 `docker compose up`
 
 `visit http://localhost:3000/`
+
+## Sample
+
+`cd apps/api/`
+`npx tsx src/llm.ts`
