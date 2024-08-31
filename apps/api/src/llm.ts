@@ -28,7 +28,7 @@ export async function llm() {
   
     console.log(`response: start...`);
     const response = await queryEngine.query({
-      query: "What did the author do in college?",
+      query: "Who is the author of Chiikawa?",
     });
     console.log(`response: ${JSON.stringify(response)}`);
   
