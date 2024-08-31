@@ -30,10 +30,9 @@ export async function llm() {
     const response = await queryEngine.query({
       query: "Who is the author of Chiikawa?",
     });
-    console.log(`response: ${JSON.stringify(response)}`);
   
     // Output response
-    console.log(response.toString());
+    console.log(response.message.toString());
   }
 
 llm().then(() => {console.log(`end`); });
