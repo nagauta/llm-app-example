@@ -32,7 +32,7 @@ export async function llm() {
     });
   
     // Output response
-    console.log(response.message.toString());
+    console.log(`response: ${JSON.stringify(response.message)}`);
   }
 
 llm().then(() => {console.log(`end`); });
